@@ -67,6 +67,7 @@ The above should eventually finish and yield the right files in the output direc
 # Using the model
 Using the custom trained model to find objects is just as easy:
 
+* `cd yolov11`
 * `yolo predict model=runs/detect/train2/weights/best.pt source=../datasets/seccam001/images/test/ imgsz=640`
 
 # Resources
