@@ -62,8 +62,7 @@ I used the following, since I'm on an arm based Macbook:
 
 * `yolo predict train data=../datasets/seccam001/dataset.yaml model=yolo11s.pt batch=-1 epochs=300 imgsz=640 device=mps`
 
-The above should eventually finish and yield the right files in the output directory, including what is called the weights, which is what you can export  
-or use to find the objects on which you trained it.
+The above should eventually finish and yield the right files in the output directory, including what is called the weights, which is what you can export or use to find the objects on which you trained it on new images.
 
 # Using the model
 Using the custom trained model to find objects is just as easy:
